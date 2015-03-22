@@ -4,7 +4,7 @@ library(dplyr)
 
 #-Read Labels for Features and Activities-
 features <- read.table(file = "./UCI HAR Dataset/features.txt")
-activity.labels <- read.table(file = "./UCI HAR Dataset/activity_labels.txt", col.names = c("Activity", "Activity.Name"))
+activity.labels <- read.table(file = "./UCI HAR Dataset/activity_labels.txt", col.names = c("Activity", "ActivityName"))
 
 #-Load data-
 #--Train
@@ -37,9 +37,13 @@ result <- select(result, -Activity)
 
 #-Set descriptive names for variables
 colnames(result) <- gsub("BodyBody", "Body", colnames(result))
+colnames(result) <- gsub("\\.mean\\.\\.\\.", "-mean()-", colnames(result))
+colnames(result) <- gsub("\\.std\\.\\.\\.", "-std()-", colnames(result))
+colnames(result) <- gsub("\\.mean\\.\\.", "-mean()", colnames(result))
+colnames(result) <- gsub("\\.std\\.\\.", "-std()", colnames(result))
 
 #-creates data set result.mean, with the average of each variable for each activity and each subject.
-result.mean <- result %>% group_by(Activity.Name, Subject) %>%
+result.mean <- result %>% group_by(ActivityName, Subject) %>%
         summarise_each(funs(mean))
 
 #-Export result.mean data set.

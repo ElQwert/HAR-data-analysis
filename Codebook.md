@@ -2,7 +2,7 @@ Human Activity Recognition Using Smartphones data analysis
 
                         Code book
 
- 01. Activity.Name
+ 01. ActivityName
         - Name of the activity
         
         Possible values: 
@@ -20,462 +20,462 @@ Human Activity Recognition Using Smartphones data analysis
         Possible values: 
         1..30 .Integer
  
- 03. tBodyAcc.mean...X
+ 03. tBodyAcc-mean()-X
         - mean of body acceleration signal in the X direction.
         Derived in time, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric
 
- 04. tBodyAcc.mean...Y
+ 04. tBodyAcc-mean()-Y
         - mean of body acceleration signal in the Y direction.
         Derived in time, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric
  
- 05. tBodyAcc.mean...Z
+ 05. tBodyAcc-mean()-Z
         - mean of body acceleration signal in the Z direction.
         Derived in time, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric 
 
- 06. tBodyAcc.std...X
+ 06. tBodyAcc-std()-X
         - standard deviation of body acceleration signal in the X direction.
         Derived in time, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric 
 
- 07. tBodyAcc.std...Y
+ 07. tBodyAcc-std()-Y
         - standard deviation of body acceleration signal in the Y direction.
         Derived in time, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric 
 
- 08. tBodyAcc.std...Z
+ 08. tBodyAcc-std()-Z
         - standard deviation of body acceleration signal in the Z direction.
         Derived in time, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric 
 
- 09. tGravityAcc.mean...X
+ 09. tGravityAcc-mean()-X
         - mean of gravity acceleration signal in the X direction.
         Derived in time, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric
 
- 10. tGravityAcc.mean...Y
+ 10. tGravityAcc-mean()-Y
         - mean of gravity acceleration signal in the Y direction.
         Derived in time, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric
 
- 11. tGravityAcc.mean...Z
+ 11. tGravityAcc-mean()-Z
         - mean of gravity acceleration signal in the Z direction.
         Derived in time, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric
 
- 12. tGravityAcc.std...X
+ 12. tGravityAcc-std()-X
         - standard deviation of gravity acceleration signal in the X direction.
         Derived in time, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric 
 
- 13. tGravityAcc.std...Y
+ 13. tGravityAcc-std()-Y
         - standard deviation of gravity acceleration signal in the Y direction.
         Derived in time, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric 
 
- 14. tGravityAcc.std...Z
+ 14. tGravityAcc-std()-Z
         - standard deviation of gravity acceleration signal in the Z direction.
         Derived in time, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric 
 
- 15. tBodyAccJerk.mean...X
+ 15. tBodyAccJerk-mean()-X
         - mean of body linear acceleration Jerk signal in the X direction.
         Derived in time, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric
 
- 16. tBodyAccJerk.mean...Y
+ 16. tBodyAccJerk-mean()-Y
         - mean of body linear acceleration Jerk signal in the Y direction.
         Derived in time, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric
 
- 17. tBodyAccJerk.mean...Z
+ 17. tBodyAccJerk-mean()-Z
         - mean of body linear acceleration Jerk signal in the Z direction.
         Derived in time, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric
 
- 18. tBodyAccJerk.std...X
+ 18. tBodyAccJerk-std()-X
         - standard deviation of body linear acceleration Jerk signal in the X direction.
         Derived in time, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric 
 
- 19. tBodyAccJerk.std...Y
+ 19. tBodyAccJerk-std()-Y
         - standard deviation of body linear acceleration Jerk signal in the Y direction.
         Derived in time, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric 
 
- 20. tBodyAccJerk.std...Z
+ 20. tBodyAccJerk-std()-Z
         - standard deviation of body linear acceleration Jerk signal in the Z direction.
         Derived in time, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric
 
- 21. tBodyGyro.mean...X
+ 21. tBodyGyro-mean()-X
         - mean of angular velocity signal in the X direction.
         Derived in time, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric
 
- 22. tBodyGyro.mean...Y
+ 22. tBodyGyro-mean()-Y
         - mean of angular velocity signal in the Y direction.
         Derived in time, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric
  
- 23. tBodyGyro.mean...Z
+ 23. tBodyGyro-mean()-Z
         - mean of angular velocity signal in the Z direction.
         Derived in time, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric 
 
- 24. tBodyGyro.std...X
+ 24. tBodyGyro-std()-X
         - standard deviation of angular velocity signal in the X direction.
         Derived in time, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric 
 
- 25. tBodyGyro.std...Y
+ 25. tBodyGyro-std()-Y
         - standard deviation of angular velocity signal in the Y direction.
         Derived in time, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric 
 
- 26. tBodyGyro.std...Z
+ 26. tBodyGyro-std()-Z
         - standard deviation of angular velocity signal in the Z direction.
         Derived in time, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric 
 
- 27. tBodyGyroJerk.mean...X
+ 27. tBodyGyroJerk-mean()-X
         - mean of angular velocity Jerk signal in the X direction.
         Derived in time, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric
 
- 28. tBodyGyroJerk.mean...Y
+ 28. tBodyGyroJerk-mean()-Y
         - mean of angular velocity Jerk signal in the Y direction.
         Derived in time, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric
  
- 29. tBodyGyroJerk.mean...Z
+ 29. tBodyGyroJerk-mean()-Z
         - mean of angular velocity Jerk signal in the Z direction.
         Derived in time, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric 
 
- 30. tBodyGyroJerk.std...X
+ 30. tBodyGyroJerk-std()-X
         - standard deviation of angular velocity Jerk signal in the X direction.
         Derived in time, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric 
 
- 31. tBodyGyroJerk.std...Y
+ 31. tBodyGyroJerk-std()-Y
         - standard deviation of angular velocity Jerk signal in the Y direction.
         Derived in time, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric 
 
- 32. tBodyGyroJerk.std...Z
+ 32. tBodyGyroJerk-std()-Z
         - standard deviation of angular velocity Jerk signal in the Z direction.
         Derived in time, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric 
 
- 33. tBodyAccMag.mean..
+ 33. tBodyAccMag-mean()
         - mean of magnitude of body acceleration three-dimensional signals were calculated using the Euclidean norm.
         Derived in time, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric
 
- 34. tBodyAccMag.std..
+ 34. tBodyAccMag-std()
         - standard deviation of magnitude of body acceleration three-dimensional signals were calculated using the Euclidean norm.
         Derived in time, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric
 
- 35. tGravityAccMag.mean..
+ 35. tGravityAccMag-mean()
         - mean of magnitude of gravity acceleration three-dimensional signals were calculated using the Euclidean norm.
         Derived in time, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric
 
- 36. tGravityAccMag.std..
+ 36. tGravityAccMag-std()
         - standard deviation of magnitude of gravity acceleration three-dimensional signals were calculated using the Euclidean norm.
         Derived in time, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric
 
- 37. tBodyAccJerkMag.mean..
+ 37. tBodyAccJerkMag-mean()
         - mean of magnitude of body linear acceleration Jerk three-dimensional signals were calculated using the Euclidean norm.
         Derived in time, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric
 
- 38. tBodyAccJerkMag.std..
+ 38. tBodyAccJerkMag-std()
         - standard deviation of magnitude of body linear acceleration Jerk three-dimensional signals were calculated using the Euclidean norm.
         Derived in time, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric
 
- 39. tBodyGyroMag.mean..
+ 39. tBodyGyroMag-mean()
         - mean of magnitude of angular velocity three-dimensional signals were calculated using the Euclidean norm.
         Derived in time, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric
 
- 40. tBodyGyroMag.std..
+ 40. tBodyGyroMag-std()
         - standard deviation of magnitude of angular velocity three-dimensional signals were calculated using the Euclidean norm.
         Derived in time, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric
 
- 41. tBodyGyroJerkMag.mean..
+ 41. tBodyGyroJerkMag-mean()
         - mean of magnitude of angular velocity Jerk three-dimensional signals were calculated using the Euclidean norm.
         Derived in time, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric
 
- 42. tBodyGyroJerkMag.std..
+ 42. tBodyGyroJerkMag-std()
         - standard deviation of magnitude of angular velocity Jerk three-dimensional signals were calculated using the Euclidean norm.
         Derived in time, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric
 
- 43. fBodyAcc.mean...X
+ 43. fBodyAcc-mean()-X
         - mean of Fast Fourier Transform (FFT) to body acceleration signal in the X direction.
         Indicate frequency, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric
 
- 44. fBodyAcc.mean...Y
+ 44. fBodyAcc-mean()-Y
         - mean of Fast Fourier Transform (FFT) to body acceleration signal in the Y direction.
         Indicate frequency, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric
  
- 45. fBodyAcc.mean...Z
+ 45. fBodyAcc-mean()-Z
         - mean of Fast Fourier Transform (FFT) to body acceleration signal in the Z direction.
         Indicate frequency, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric 
 
- 46. fBodyAcc.std...X
+ 46. fBodyAcc-std()-X
         - standard deviation of Fast Fourier Transform (FFT) to body acceleration signal in the X direction.
         Indicate frequency, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric 
 
- 47. fBodyAcc.std...Y
+ 47. fBodyAcc-std()-Y
         - standard deviation of Fast Fourier Transform (FFT) to body acceleration signal in the Y direction.
         Indicate frequency, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric 
 
- 48. fBodyAcc.std...Z
+ 48. fBodyAcc-std()-Z
         - standard deviation of Fast Fourier Transform (FFT) to body acceleration signal in the Z direction.
         Indicate frequency, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric 
  
- 49. fBodyAccJerk.mean...X
+ 49. fBodyAccJerk-mean()-X
         - mean of Fast Fourier Transform (FFT) to body linear acceleration Jerk signal in the X direction.
         Indicate frequency, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric
 
- 50. fBodyAccJerk.mean...Y
+ 50. fBodyAccJerk-mean()-Y
         - mean of Fast Fourier Transform (FFT) to body linear acceleration Jerk signal in the Y direction.
         Indicate frequency, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric
 
- 51. fBodyAccJerk.mean...Z
+ 51. fBodyAccJerk-mean()-Z
         - mean of Fast Fourier Transform (FFT) to body linear acceleration Jerk signal in the Z direction.
         Indicate frequency, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric
 
- 52. fBodyAccJerk.std...X
+ 52. fBodyAccJerk-std()-X
         - standard deviation of Fast Fourier Transform (FFT) to body linear acceleration Jerk signal in the X direction.
         Indicate frequency, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric 
 
- 53. fBodyAccJerk.std...Y
+ 53. fBodyAccJerk-std()-Y
         - standard deviation of Fast Fourier Transform (FFT) to body linear acceleration Jerk signal in the Y direction.
         Indicate frequency, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric 
 
- 54. fBodyAccJerk.std...Z
+ 54. fBodyAccJerk-std()-Z
         - standard deviation of Fast Fourier Transform (FFT) to body linear acceleration Jerk signal in the Z direction.
         Indicate frequency, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric
 
- 55. fBodyGyro.mean...X
+ 55. fBodyGyro-mean()-X
         - mean of Fast Fourier Transform (FFT) to angular velocity signal in the X direction.
         Indicate frequency, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric
 
- 56. fBodyGyro.mean...Y
+ 56. fBodyGyro-mean()-Y
         - mean of Fast Fourier Transform (FFT) to angular velocity signal in the Y direction.
         Indicate frequency, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric
  
- 57. fBodyGyro.mean...Z
+ 57. fBodyGyro-mean()-Z
         - mean of Fast Fourier Transform (FFT) to angular velocity signal in the Z direction.
         Indicate frequency, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric 
 
- 58. fBodyGyro.std...X
+ 58. fBodyGyro-std()-X
         - standard deviation of Fast Fourier Transform (FFT) to angular velocity signal in the X direction.
         Indicate frequency, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric 
 
- 59. fBodyGyro.std...Y
+ 59. fBodyGyro-std()-Y
         - standard deviation of Fast Fourier Transform (FFT) to angular velocity signal in the Y direction.
         Indicate frequency, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric 
 
- 60. fBodyGyro.std...Z
+ 60. fBodyGyro-std()-Z
         - standard deviation of Fast Fourier Transform (FFT) to angular velocity signal in the Z direction.
         Indicate frequency, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric 
 
- 61. fBodyAccMag.mean..
+ 61. fBodyAccMag-mean()
         - mean of Fast Fourier Transform (FFT) to magnitude of body acceleration three-dimensional signals were calculated using the Euclidean norm.
         Indicate frequency, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric
 
- 62. fBodyAccMag.std..
+ 62. fBodyAccMag-std()
         - standard deviation of Fast Fourier Transform (FFT) to magnitude of body acceleration three-dimensional signals were calculated using the Euclidean norm.
         Indicate frequency, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric
 
- 37. fBodyAccJerkMag.mean..
+ 37. fBodyAccJerkMag-mean()
         - mean of magnitude of Fast Fourier Transform (FFT) to body linear acceleration Jerk three-dimensional signals were calculated using the Euclidean norm.
         Indicate frequency, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric
 
- 38. fBodyAccJerkMag.std..
+ 38. fBodyAccJerkMag-std()
         - standard deviation of Fast Fourier Transform (FFT) to magnitude of body linear acceleration Jerk three-dimensional signals were calculated using the Euclidean norm.
         Indicate frequency, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric
 
- 39. fBodyGyroMag.mean..
+ 39. fBodyGyroMag-mean()
         - mean of Fast Fourier Transform (FFT) to magnitude of angular velocity three-dimensional signals were calculated using the Euclidean norm.
         Indicate frequency, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric
 
- 40. fBodyGyroMag.std..
+ 40. fBodyGyroMag-std()
         - standard deviation of Fast Fourier Transform (FFT) to magnitude of angular velocity three-dimensional signals were calculated using the Euclidean norm.
         Indicate frequency, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric
 
- 41. fBodyGyroJerkMag.mean..
+ 41. fBodyGyroJerkMag-mean()
         - mean of Fast Fourier Transform (FFT) to magnitude of angular velocity Jerk three-dimensional signals were calculated using the Euclidean norm.
         Indicate frequency, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         
         Possible values:
         -1..1 .Numeric
 
- 42. fBodyGyroJerkMag.std..
+ 42. fBodyGyroJerkMag-std()
         - standard deviation of Fast Fourier Transform (FFT) to magnitude of angular velocity Jerk three-dimensional signals were calculated using the Euclidean norm.
         Indicate frequency, normalized to [-1, 1] and averaged for each 'Activity.Name' and each 'Subject'
         

@@ -19,7 +19,7 @@ Description, how the script works:
         - add Activity and Subject indexes to the begining of the list.
         - filter merged set with the train and test data to get only mean and standard deviation measurements.
  7. Set descriptive labels for the Activities instead of numbers.
- 8. Set descriptive names for the variables in the merget dataset.
+ 8. Set descriptive names for the variables in the merged dataset.
  9. Create data set with the average of each variable for each activity and each subject.
  10. Export tidy result set created in step 9.
  11. Result file HAR_result.txt can be found in the working directory.
